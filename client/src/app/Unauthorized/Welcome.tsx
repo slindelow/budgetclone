@@ -1,5 +1,5 @@
 import React from "react";
-import BudgetBoardLogo from "~/assets/budget-board-logo";
+import PocketPallLogo from "~/assets/pocketpall-logo";
 import { Stack, Group, Anchor, useComputedColorScheme } from "@mantine/core";
 import Register from "./Register";
 import Login from "./Login";
@@ -80,12 +80,12 @@ const Welcome = (): React.ReactNode => {
       <Stack w="500px" maw="100%" align="center">
         <Stack align="center" gap="0.25rem">
           <PrimaryText size="lg">Welcome to</PrimaryText>
-          <BudgetBoardLogo
-            width={340}
+          <PocketPallLogo
+            width={200}
             darkMode={computedColorScheme === "dark"}
           />
           <DimmedText size="md">
-            A simple app for managing monthly budgets.
+            Smart personal finance management made simple.
           </DimmedText>
         </Stack>
         <Card

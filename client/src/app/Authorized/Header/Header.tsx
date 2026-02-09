@@ -1,4 +1,4 @@
-import BudgetBoardLogo from "~/assets/budget-board-logo";
+import PocketPallLogo from "~/assets/pocketpall-logo";
 import classes from "./Header.module.css";
 
 import { Burger, Flex, Group, useComputedColorScheme } from "@mantine/core";
@@ -21,7 +21,7 @@ const Header = (props: HeaderProps): React.ReactNode => {
           hiddenFrom="xs"
           size="md"
         />
-        <BudgetBoardLogo
+        <PocketPallLogo
           height={40}
           darkMode={computedColorScheme === "dark"}
         />
